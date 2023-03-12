@@ -1,0 +1,202 @@
+.header {
+  display: flex;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  background-image: url('darkkok.jpg');
+  color: #fff;
+}
+
+.title {
+  font-family: Arial;
+  font-size: 26px;
+  text-align: right;
+  padding-left: 100px;
+}
+
+.search {
+  display: flex;
+  padding-left: 150px;
+}
+
+/* MAIN */
+
+.main {
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+  background-color: lightgrey;
+}
+
+.profile {
+  width: 240px;
+  margin: 10px;
+  align-items: end;
+}
+
+.links {
+  padding-left: 50px;
+  border: 20px solid lightgrey;
+  background-color: lightgrey;
+  color: #222222;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+
+.content {
+  width: 360px;
+  margin: 10px;
+  display: flex;
+  align-content: start;
+  flex-direction: column;
+}
+
+.content_body:not(:first-child) {
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.content_desc {
+  padding: 0 20px 0 20px;
+  flex-direction: column;
+}
+
+.content img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.content_btn {
+  background-color: lightgrey;
+  color: black;
+  border: 1px  solid lightgrey;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.dannye {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: Arial;
+}
+.dannye_1 {
+
+}
+.dannye_name {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+.dannye_info {
+  border: 1px solid lightgrey;
+  background-color: white;
+  display: flex;
+  margin: 1px;
+}
+.dannye_statistika{
+  border: 1px solid lightgrey;
+  background-color: white;
+  display: flex;
+  margin: 1px;
+  justify-content: space-between;
+}
+.dannye_photo {
+  border: 1px solid lightgrey;
+  background-color: white;
+  flex-direction: column;
+  margin: 1px;
+}
+.dannye_zapiska {
+  border: 1px solid lightgrey;
+  background-color: white;
+  flex-direction: column;
+  margin: 1px;
+}
+.friends {
+  margin: 20px;
+  font-family: Arial;
+}
+.friends_head {
+  border: 1px solid lightgrey;
+  background-color: white;
+  margin: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.friends_info {
+  border: 1px solid lightgrey;
+  margin: 1px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends_info:not(:first-child) {
+  margin-top: 0px;
+}
+
+.friends_desc {
+  width: 580px;
+}
+
+.friends img {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.friends_name {
+  font-size: 16px;
+  color: darkblue;
+}
+
+.send_message {
+  padding: 5px;
+  border: none;
+  background-color: white;
+  color: darkblue;
+}
+.remove {
+  padding-right: 10px;
+  border: 1px solid white;
+  margin: 0px;
+  background-color: white;
+}
+.friends_search {
+  margin: 0px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  display: flex;
+}
+.function {
+  width: 400px;
+  margin: 0px;
+  font-family: Arial;
+}
+.function_1 {
+  margin: 20px;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  background-color: white;
+  color: black;
+}
+.function_2 {
+  margin: 20px;
+  flex-direction: column;
+  border: lightgrey;
+  background-color: whitesmoke;
+  color: black;
+}
+.func_btn {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  background-color: white;
+}
